@@ -9,9 +9,10 @@ p{
 </style>
 </head>
 <body>
-<a href="/nose/images/meme.png" download><p>если скачивание не началось, нажмите на меня</p></a>
+<a id='link' href="/nose/images/meme.png" download><p>если скачивание не началось, нажмите на меня</p></a>
 <script>
-window.location.href = "/nose/images/meme.png";
+const link = document.getElementById('link');
+link.click();
 </script>
 </body>
 </html>
